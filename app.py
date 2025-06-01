@@ -74,7 +74,7 @@ def main():
         else:
             st.info("ℹ️ No analysis data yet")
             st.caption("Run analysis first to enable AI chat")
-            st.info("(Sample test data is avalible for use in the GITHUB repo under the DATA folder)")
+            st.warning("⚠️ Sample test data is avalible for use in the GITHUB repo under the DATA folder")
         
         st.divider()
         
