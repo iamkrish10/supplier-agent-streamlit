@@ -72,7 +72,7 @@ def main():
             scores = st.session_state.analysis_results.get("score_table", {})
             st.info(f"📈 {len(scores)} suppliers analyzed")
         else:
-            st.info("ℹ️ No analysis data yet")
+            st.info("ℹ️ No analysis data yet (SAMPLE TEST DATA IS AVALIBLE FOR USE IN THE GITHUB UNDER THE data FOLDER)")
             st.caption("Run analysis first to enable AI chat")
         
         st.divider()
